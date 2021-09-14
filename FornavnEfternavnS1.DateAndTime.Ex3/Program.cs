@@ -8,6 +8,7 @@ namespace FornavnEfternavnS1.DateAndTime.Ex3
         {
             //Opgave 1
 
+            /*
             Console.WriteLine("Skriv et årstal, og jeg fortæller hvornår det næste skudår er.");
 
             int userInput = int.Parse(Console.ReadLine());
@@ -32,6 +33,21 @@ namespace FornavnEfternavnS1.DateAndTime.Ex3
                     Console.WriteLine(userInput + " Det er skudår!");
                 }
             }
+            */
+
+            //Opgave 2
+
+            /*
+            DateTime myValue = DateTime.Now;
+            Console.WriteLine(myValue.ToShortDateString());
+            Console.WriteLine(myValue.ToLongDateString());
+            Console.WriteLine(myValue.ToString("dd. MMMM yyyy HH:mm:ss"));
+            Console.WriteLine(myValue.ToString("dd. dddd MMM y"));
+            */
+
+            //Opgave 3
+
+            
         }
     }
 }
